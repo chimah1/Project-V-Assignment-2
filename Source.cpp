@@ -36,11 +36,6 @@ int main()
 	}
 	StudentDataFile.close();
 	
-	for (const STUDENT_DATA& student : StudentDataVector) {
-		cout << "FirstName: " << student.FirstName << endl;
-		cout << "Last Name: " << student.LastName << endl;
-		cout << "\n";
-	}
 
 	return 1;
 }
