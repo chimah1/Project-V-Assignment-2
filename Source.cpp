@@ -9,19 +9,13 @@ struct STUDENT_DATA
 {
 	string FirstName;
 	string LastName;
+	string Email;
 
 };
 
 int main()
 {
-	cout << "========================================================================" << endl;
-	cout << "|                                                                       |" << endl;
-	cout << "|                                                                       |" << endl;
-	cout << "|		Standard Source Code                                    |" << endl;
-	cout << "|                                                                       |" << endl;
-	cout << "|                                                                       |" << endl;
-	cout << "|                                                                       |" << endl;
-	cout << "========================================================================" << endl;
+	
 
 	vector<STUDENT_DATA> StudentDataVector;
 
