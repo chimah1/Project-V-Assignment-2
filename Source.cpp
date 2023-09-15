@@ -14,6 +14,14 @@ struct STUDENT_DATA
 
 int main()
 {
+	cout << "========================================================================" << endl;
+	cout << "|                                                                       |" << endl;
+	cout << "|                                                                       |" << endl;
+	cout << "|		Standard Source Code                                    |" << endl;
+	cout << "|                                                                       |" << endl;
+	cout << "|                                                                       |" << endl;
+	cout << "|                                                                       |" << endl;
+	cout << "========================================================================" << endl;
 
 	vector<STUDENT_DATA> StudentDataVector;
 
@@ -26,6 +34,8 @@ int main()
 	while (getline(StudentDataFile, line))
 	{
 		size_t Delimiter = line.find(",");
+
+		
 		if (Delimiter != std::string::npos) 
 		{
 			STUDENT_DATA Student;
